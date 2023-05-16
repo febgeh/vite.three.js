@@ -1,0 +1,176 @@
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+:root {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1, h2, h3, blockquote {
+  font-family: "Castoro Titling", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+  header {
+    background: rgba(15, 15, 15, 0.95);
+    grid-column: 2 / span 5;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: 350px;
+  }
+
+  section {
+    margin-top: 200px;
+    grid-column: 2 / 9;
+    padding: 1rem;
+    background: rgba(15, 15, 15, 0.95);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 350px;
+  }
+.right{
+  margin-top: 200px;
+  grid-column: 2 / 11;
+  padding: 1rem;
+  background: rgba(15, 15, 15, 0.95);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 350px;
+}
+  blockquote {
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: 350px;
+  }
+
+  blockquote p {
+    color: white;
+    font-size: 4rem;
+    display: inline;
+    line-height: 1;
+  }
+
+  .left {
+    grid-column: 7 / 12;
+  }
+
+/* div under text */
+
+.underline{
+  margin-top: -20px;
+  width: 500px;
+  height :5px;
+  background-color: aliceblue;
+}
+.underline1{
+  width: 100px;
+  height :5px;
+  background-color: aliceblue;
+  margin-left: 490px;
+  rotate: 30deg;
+  margin-top: 20px;
+}
+
+.canvasHolder{
+  grid-column: 2 / 8;
+  margin-left: 0px;
+  height: 430px;
+  border:solid 5px;
+}
+.pointer{
+  grid-column: 5 / 9;
+  height:110px;
+  margin-top: 370px;
+}
+.pointerText {
+  align-self: center;
+  text-align: center;
+}
+.line1{
+  background-color: white;
+  height: 10px;
+  width: 400px;
+  top: 0px;
+  margin-left: 38px;
+}
+.line2{
+  height: 10px;
+  width: 100px;
+  background-color: white;
+  margin-left: -32px;
+  margin-top: 30px;
+  rotate: 120deg;
+  border-bottom-left-radius: 3px;
+}
+.line22{
+  height: 10px;
+  width: 100px;
+  background-color: white;
+  margin-left: 410px;
+  margin-top: -9px;
+  rotate: 60deg;
+  border-bottom-left-radius: 3px;
+}
+.pointer_a_h3{
+  text-align: center;
+  margin-top: -30px;
+}
+.Red_giant{
+  position: relative;
+  top: -330px;
+  grid-column: 4/6;
+}
+.Red_superGiant{
+  position: relative;
+  top: -330px;
+  grid-column: 8/11;
+}
+.info_redG{
+  grid-column: 4 / 10;
+}
+.RedG_info{
+  border: 2px solid white;
+  flex:1;
+  min-width: 200px;
+  flex-wrap: wrap;
+  height: 300px;
+}
+.Supernova{
+  grid-column: 2/12;
+}
+.ProtonStar{
+  grid-column: 2/8;
+
+}
+.whiteDwarf{
+  grid-column: 2/6;
+
+}

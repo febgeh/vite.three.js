@@ -1,0 +1,41 @@
+body {
+    background-image: url('./bilder/milky_gogo_gaga.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px;
+  }
+  
+  div {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    min-width: 500px;
+    overflow: hidden;
+    border: solid 2px;
+    transition: transform 0.3s ease-in-out;
+  }
+  div:hover {
+    transform: scale(1.4);
+    z-index: 2;
+  }  
+  
+  img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.2);
+  }
+  body:hover img:not(:hover) {
+    filter: blur(3px);
+  }

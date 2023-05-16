@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om oppgaven</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        html {
+            background-color: rgb(44, 44, 44);
+        }
+        
+        .medlemmerContainer {
+            background-color: #444444;
+            box-shadow: 1rem 1rem;
+            padding: 1rem;
+            border-radius: 1.4rem;
+        }
+        
+        p, h1, h2 {
+            color: whitesmoke;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .medlemmene {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .medlemmene img {
+            height: 8rem;
+        }
+        
+        .infoOppgave, .hvordanUtført {
+            width: 30rem;
+            height: 20rem;
+            margin-top: 4rem;
+            padding: 1.5rem;
+            border-radius: 1.4rem;
+            background-color: #444444;
+            background-image: url(./StarNight.jpg);
+            background-size: 50rem;
+            background-blend-mode:overlay;
+        }
+        
+        .infoUtført {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Informasjon om prosjektet</h1>
+
+        <div class="medlemmerContainer">
+            <p>Gruppens medlemmer</p>
+            <div class="medlemmene">
+                <div><img src="/bilder/WinterShrek.png"><p>Georgi</p></div>
+                <div><img src="/bilder/WinterShrek.png"><p>Mareks</p></div>
+                <div><img src="/bilder/Teo.png"><p>Teo</p></div>
+            </div>
+        </div>
+
+        <div class="infoUtført">
+            <div class="infoOppgave">
+                <h2>❕ Info om oppgaven</h2>
+                <p>Oppgaven var et gruppeprosjekt der man skulle
+                    velge mellom ulike problemstillinger og lage et produkt basert på funnene.<br><br>
+                    Vår gruppe valgte å lage en responsiv nettside om livsløpet til stjerner, 
+                    siden verdensrommet og stjerner er begge ting vi liker.
+                </p>
+            </div>
+
+            <div class="hvordanUtført">
+                <h2>❔ Hvordan vi jobbet med oppgaven</h2>
+                <p>Vi begynte med å finne informasjon om livsløpet til stjerner.
+                    Deretter lagde Georgi en responsiv nettside med three.js. <br><br>
+                    Dette gjør at vi kan ha animasjoner på nettsiden, i tillegg lagde Georgi mange forskjellige blender animasjoner.
+                    Hovedoppgavene til Mareks og Teo var å finne og skrive informasjon, og lage noen elemementer til nettsiden.
+                </p>
+            </div>
+        </div>
+
+            <div class="sources">
+                <p>Referansebilder
+                    <a href="https://unsplash.com">Unsplash.com</a>
+                </p>
+            </div>
+    </main>
+</body>
+</html>
